@@ -9,4 +9,5 @@ class Solution:
                 maxf=max(maxf,freq[s[j]])
                 if (j+1-i)-maxf <= k:
                     res=max(res, j+1-i)
+        # Brute force
         return res
